@@ -62,7 +62,7 @@ def run_robustness_test(model, data_dir, device, batch_size=32):
         })
         
     # Contrast
-    factors = [0.5, 0.8]
+    factors = [0.3, 0.5, 0.8]
     for f in factors:
         print(f"Evaluating Contrast (factor={f})...")
         loader = get_robustness_loader(data_dir, degradation={'type': 'contrast', 'params': {'factor': f}}, batch_size=batch_size)

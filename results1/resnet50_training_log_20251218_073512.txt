@@ -1,0 +1,79 @@
+Logging to results/resnet50_training_log_20251218_073512.txt
+Using device: cuda
+Loading data...
+Dataset sizes: Train=4002, Val=998, Test=1000
+Number of classes: 4
+Initializing resnet50...
+Downloading: "https://download.pytorch.org/models/resnet50-0676ba61.pth" to /home/takoooo1201/.cache/torch/hub/checkpoints/resnet50-0676ba61.pth
+Starting training...
+Using 2 GPUs!
+Epoch 1: Train Loss: 0.2919 Acc: 0.8973 F1: 0.8975
+Epoch 1: Val Loss: 0.1410 Acc: 0.9569 F1: 0.9574
+Validation loss decreased (inf --> 0.141017).  Saving model ...
+Epoch 2: Train Loss: 0.0707 Acc: 0.9793 F1: 0.9792
+Epoch 2: Val Loss: 0.0499 Acc: 0.9830 F1: 0.9829
+Validation loss decreased (0.141017 --> 0.049869).  Saving model ...
+Epoch 3: Train Loss: 0.0319 Acc: 0.9883 F1: 0.9883
+Epoch 3: Val Loss: 0.0620 Acc: 0.9780 F1: 0.9780
+EarlyStopping counter: 1 out of 7
+Epoch 4: Train Loss: 0.0277 Acc: 0.9908 F1: 0.9908
+Epoch 4: Val Loss: 0.0455 Acc: 0.9860 F1: 0.9860
+Validation loss decreased (0.049869 --> 0.045499).  Saving model ...
+Epoch 5: Train Loss: 0.0158 Acc: 0.9963 F1: 0.9963
+Epoch 5: Val Loss: 0.0335 Acc: 0.9890 F1: 0.9890
+Validation loss decreased (0.045499 --> 0.033452).  Saving model ...
+Epoch 6: Train Loss: 0.0120 Acc: 0.9973 F1: 0.9972
+Epoch 6: Val Loss: 0.0239 Acc: 0.9910 F1: 0.9910
+Validation loss decreased (0.033452 --> 0.023899).  Saving model ...
+Epoch 7: Train Loss: 0.0082 Acc: 0.9980 F1: 0.9980
+Epoch 7: Val Loss: 0.0406 Acc: 0.9890 F1: 0.9890
+EarlyStopping counter: 1 out of 7
+Epoch 8: Train Loss: 0.0057 Acc: 0.9988 F1: 0.9988
+Epoch 8: Val Loss: 0.0191 Acc: 0.9930 F1: 0.9930
+Validation loss decreased (0.023899 --> 0.019110).  Saving model ...
+Epoch 9: Train Loss: 0.0030 Acc: 0.9998 F1: 0.9998
+Epoch 9: Val Loss: 0.0185 Acc: 0.9920 F1: 0.9920
+Validation loss decreased (0.019110 --> 0.018537).  Saving model ...
+Epoch 10: Train Loss: 0.0031 Acc: 0.9990 F1: 0.9990
+Epoch 10: Val Loss: 0.0186 Acc: 0.9920 F1: 0.9920
+EarlyStopping counter: 1 out of 7
+Epoch 11: Train Loss: 0.0028 Acc: 0.9993 F1: 0.9993
+Epoch 11: Val Loss: 0.0236 Acc: 0.9910 F1: 0.9910
+EarlyStopping counter: 2 out of 7
+Epoch 12: Train Loss: 0.0032 Acc: 0.9990 F1: 0.9990
+Epoch 12: Val Loss: 0.0273 Acc: 0.9880 F1: 0.9880
+EarlyStopping counter: 3 out of 7
+Epoch 13: Train Loss: 0.0040 Acc: 0.9990 F1: 0.9990
+Epoch 13: Val Loss: 0.0230 Acc: 0.9910 F1: 0.9910
+EarlyStopping counter: 4 out of 7
+Epoch 14: Train Loss: 0.0024 Acc: 0.9993 F1: 0.9993
+Epoch 14: Val Loss: 0.0219 Acc: 0.9920 F1: 0.9920
+EarlyStopping counter: 5 out of 7
+Epoch 15: Train Loss: 0.0022 Acc: 0.9990 F1: 0.9990
+Epoch 15: Val Loss: 0.0416 Acc: 0.9890 F1: 0.9890
+EarlyStopping counter: 6 out of 7
+Epoch 16: Train Loss: 0.0023 Acc: 0.9988 F1: 0.9988
+Epoch 16: Val Loss: 0.0250 Acc: 0.9910 F1: 0.9910
+EarlyStopping counter: 7 out of 7
+Early stopping
+Starting robustness test...
+Evaluating on Clean Test Set...
+Evaluating Gaussian Noise (sigma=0.1)...
+Evaluating Gaussian Noise (sigma=0.5)...
+Evaluating Gaussian Noise (sigma=1.0)...
+Evaluating Blur (kernel=3)...
+Evaluating Blur (kernel=5)...
+Evaluating Blur (kernel=7)...
+Evaluating Contrast (factor=0.5)...
+Evaluating Contrast (factor=0.8)...
+Results saved to results/resnet50_robustness_results.csv
+        Condition   Parameter  Accuracy  F1-Score  Acc Drop   F1 Drop
+0           Clean        None     0.993  0.993002     0.000  0.000000
+1  Gaussian Noise   sigma=0.1     0.947  0.946938     0.046  0.046063
+2  Gaussian Noise   sigma=0.5     0.140  0.034386     0.853  0.958616
+3  Gaussian Noise   sigma=1.0     0.140  0.034386     0.853  0.958616
+4            Blur         k=3     0.768  0.787620     0.225  0.205382
+5            Blur         k=5     0.747  0.769993     0.246  0.223009
+6            Blur         k=7     0.744  0.767362     0.249  0.225639
+7        Contrast  factor=0.5     0.991  0.991006     0.002  0.001995
+8        Contrast  factor=0.8     0.995  0.995000    -0.002 -0.001998

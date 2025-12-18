@@ -1,0 +1,330 @@
+Logging to results/yolov8_cls_training_log_20251218_074128.txt
+Using device: cuda
+Loading data...
+Dataset sizes: Train=4002, Val=998, Test=1000
+Number of classes: 4
+Initializing yolov8_cls...
+[KDownloading https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8n-cls.pt to 'yolov8n-cls.pt': 5% ╸─────────── 272.0KB/5.3MB 2.6MB/s 0.1s<1.9s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8n-cls.pt to 'yolov8n-cls.pt': 44% ━━━━━─────── 2.3/5.3MB 20.7MB/s 0.2s<0.1s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8n-cls.pt to 'yolov8n-cls.pt': 100% ━━━━━━━━━━━━ 5.3MB 22.2MB/s 0.2s[KDownloading https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8n-cls.pt to 'yolov8n-cls.pt': 100% ━━━━━━━━━━━━ 5.3MB 21.9MB/s 0.2s
+Starting training...
+Using 2 GPUs!
+Epoch 1: Train Loss: 1.1626 Acc: 0.5787 F1: 0.5689
+Epoch 1: Val Loss: 1.2509 Acc: 0.7435 F1: 0.7350
+Validation loss decreased (inf --> 1.250934).  Saving model ...
+Epoch 2: Train Loss: 0.8834 Acc: 0.7576 F1: 0.7522
+Epoch 2: Val Loss: 1.1656 Acc: 0.8146 F1: 0.8104
+Validation loss decreased (1.250934 --> 1.165613).  Saving model ...
+Epoch 3: Train Loss: 0.7469 Acc: 0.7999 F1: 0.7982
+Epoch 3: Val Loss: 1.1082 Acc: 0.8206 F1: 0.8150
+Validation loss decreased (1.165613 --> 1.108161).  Saving model ...
+Epoch 4: Train Loss: 0.6557 Acc: 0.8228 F1: 0.8206
+Epoch 4: Val Loss: 1.0775 Acc: 0.8307 F1: 0.8279
+Validation loss decreased (1.108161 --> 1.077497).  Saving model ...
+Epoch 5: Train Loss: 0.6100 Acc: 0.8276 F1: 0.8265
+Epoch 5: Val Loss: 1.0580 Acc: 0.8427 F1: 0.8407
+Validation loss decreased (1.077497 --> 1.058040).  Saving model ...
+Epoch 6: Train Loss: 0.5800 Acc: 0.8358 F1: 0.8351
+Epoch 6: Val Loss: 1.0406 Acc: 0.8417 F1: 0.8396
+Validation loss decreased (1.058040 --> 1.040597).  Saving model ...
+Epoch 7: Train Loss: 0.5564 Acc: 0.8431 F1: 0.8419
+Epoch 7: Val Loss: 1.0383 Acc: 0.8437 F1: 0.8424
+Validation loss decreased (1.040597 --> 1.038261).  Saving model ...
+Epoch 8: Train Loss: 0.5469 Acc: 0.8403 F1: 0.8396
+Epoch 8: Val Loss: 1.0321 Acc: 0.8487 F1: 0.8467
+Validation loss decreased (1.038261 --> 1.032052).  Saving model ...
+Epoch 9: Train Loss: 0.5423 Acc: 0.8428 F1: 0.8422
+Epoch 9: Val Loss: 1.0279 Acc: 0.8487 F1: 0.8459
+Validation loss decreased (1.032052 --> 1.027912).  Saving model ...
+Epoch 10: Train Loss: 0.5370 Acc: 0.8481 F1: 0.8475
+Epoch 10: Val Loss: 1.0282 Acc: 0.8477 F1: 0.8456
+EarlyStopping counter: 1 out of 7
+Epoch 11: Train Loss: 0.5144 Acc: 0.8513 F1: 0.8513
+Epoch 11: Val Loss: 1.0078 Acc: 0.8477 F1: 0.8446
+Validation loss decreased (1.027912 --> 1.007810).  Saving model ...
+Epoch 12: Train Loss: 0.4939 Acc: 0.8531 F1: 0.8522
+Epoch 12: Val Loss: 0.9938 Acc: 0.8557 F1: 0.8526
+Validation loss decreased (1.007810 --> 0.993829).  Saving model ...
+Epoch 13: Train Loss: 0.4678 Acc: 0.8583 F1: 0.8577
+Epoch 13: Val Loss: 0.9846 Acc: 0.8627 F1: 0.8602
+Validation loss decreased (0.993829 --> 0.984627).  Saving model ...
+Epoch 14: Train Loss: 0.4463 Acc: 0.8663 F1: 0.8660
+Epoch 14: Val Loss: 0.9770 Acc: 0.8607 F1: 0.8589
+Validation loss decreased (0.984627 --> 0.977050).  Saving model ...
+Epoch 15: Train Loss: 0.4379 Acc: 0.8661 F1: 0.8656
+Epoch 15: Val Loss: 0.9724 Acc: 0.8567 F1: 0.8537
+Validation loss decreased (0.977050 --> 0.972359).  Saving model ...
+Epoch 16: Train Loss: 0.4276 Acc: 0.8658 F1: 0.8654
+Epoch 16: Val Loss: 0.9663 Acc: 0.8627 F1: 0.8609
+Validation loss decreased (0.972359 --> 0.966305).  Saving model ...
+Epoch 17: Train Loss: 0.4207 Acc: 0.8693 F1: 0.8693
+Epoch 17: Val Loss: 0.9633 Acc: 0.8657 F1: 0.8634
+Validation loss decreased (0.966305 --> 0.963343).  Saving model ...
+Epoch 18: Train Loss: 0.4181 Acc: 0.8693 F1: 0.8685
+Epoch 18: Val Loss: 0.9610 Acc: 0.8707 F1: 0.8687
+Validation loss decreased (0.963343 --> 0.961004).  Saving model ...
+Epoch 19: Train Loss: 0.4104 Acc: 0.8691 F1: 0.8690
+Epoch 19: Val Loss: 0.9643 Acc: 0.8627 F1: 0.8602
+EarlyStopping counter: 1 out of 7
+Epoch 20: Train Loss: 0.4122 Acc: 0.8656 F1: 0.8652
+Epoch 20: Val Loss: 0.9602 Acc: 0.8667 F1: 0.8655
+Validation loss decreased (0.961004 --> 0.960229).  Saving model ...
+Epoch 21: Train Loss: 0.4012 Acc: 0.8756 F1: 0.8753
+Epoch 21: Val Loss: 0.9569 Acc: 0.8607 F1: 0.8580
+Validation loss decreased (0.960229 --> 0.956915).  Saving model ...
+Epoch 22: Train Loss: 0.3952 Acc: 0.8758 F1: 0.8757
+Epoch 22: Val Loss: 0.9499 Acc: 0.8677 F1: 0.8650
+Validation loss decreased (0.956915 --> 0.949915).  Saving model ...
+Epoch 23: Train Loss: 0.3867 Acc: 0.8753 F1: 0.8749
+Epoch 23: Val Loss: 0.9461 Acc: 0.8687 F1: 0.8671
+Validation loss decreased (0.949915 --> 0.946109).  Saving model ...
+Epoch 24: Train Loss: 0.3749 Acc: 0.8791 F1: 0.8785
+Epoch 24: Val Loss: 0.9414 Acc: 0.8707 F1: 0.8685
+Validation loss decreased (0.946109 --> 0.941387).  Saving model ...
+Epoch 25: Train Loss: 0.3735 Acc: 0.8808 F1: 0.8809
+Epoch 25: Val Loss: 0.9385 Acc: 0.8737 F1: 0.8716
+Validation loss decreased (0.941387 --> 0.938450).  Saving model ...
+Epoch 26: Train Loss: 0.3624 Acc: 0.8876 F1: 0.8872
+Epoch 26: Val Loss: 0.9360 Acc: 0.8838 F1: 0.8825
+Validation loss decreased (0.938450 --> 0.935982).  Saving model ...
+Epoch 27: Train Loss: 0.3534 Acc: 0.8831 F1: 0.8827
+Epoch 27: Val Loss: 0.9351 Acc: 0.8717 F1: 0.8691
+Validation loss decreased (0.935982 --> 0.935072).  Saving model ...
+Epoch 28: Train Loss: 0.3620 Acc: 0.8791 F1: 0.8790
+Epoch 28: Val Loss: 0.9334 Acc: 0.8788 F1: 0.8770
+Validation loss decreased (0.935072 --> 0.933441).  Saving model ...
+Epoch 29: Train Loss: 0.3562 Acc: 0.8876 F1: 0.8873
+Epoch 29: Val Loss: 0.9333 Acc: 0.8788 F1: 0.8769
+Validation loss decreased (0.933441 --> 0.933344).  Saving model ...
+Epoch 30: Train Loss: 0.3579 Acc: 0.8858 F1: 0.8852
+Epoch 30: Val Loss: 0.9336 Acc: 0.8747 F1: 0.8729
+EarlyStopping counter: 1 out of 7
+Epoch 31: Train Loss: 0.3515 Acc: 0.8861 F1: 0.8860
+Epoch 31: Val Loss: 0.9277 Acc: 0.8808 F1: 0.8796
+Validation loss decreased (0.933344 --> 0.927716).  Saving model ...
+Epoch 32: Train Loss: 0.3418 Acc: 0.8886 F1: 0.8878
+Epoch 32: Val Loss: 0.9265 Acc: 0.8788 F1: 0.8780
+Validation loss decreased (0.927716 --> 0.926495).  Saving model ...
+Epoch 33: Train Loss: 0.3402 Acc: 0.8918 F1: 0.8918
+Epoch 33: Val Loss: 0.9228 Acc: 0.8908 F1: 0.8901
+Validation loss decreased (0.926495 --> 0.922796).  Saving model ...
+Epoch 34: Train Loss: 0.3349 Acc: 0.8883 F1: 0.8883
+Epoch 34: Val Loss: 0.9223 Acc: 0.8818 F1: 0.8800
+Validation loss decreased (0.922796 --> 0.922262).  Saving model ...
+Epoch 35: Train Loss: 0.3284 Acc: 0.8938 F1: 0.8935
+Epoch 35: Val Loss: 0.9188 Acc: 0.8888 F1: 0.8873
+Validation loss decreased (0.922262 --> 0.918772).  Saving model ...
+Epoch 36: Train Loss: 0.3183 Acc: 0.8951 F1: 0.8949
+Epoch 36: Val Loss: 0.9173 Acc: 0.8878 F1: 0.8862
+Validation loss decreased (0.918772 --> 0.917334).  Saving model ...
+Epoch 37: Train Loss: 0.3223 Acc: 0.8996 F1: 0.8994
+Epoch 37: Val Loss: 0.9189 Acc: 0.8798 F1: 0.8776
+EarlyStopping counter: 1 out of 7
+Epoch 38: Train Loss: 0.3257 Acc: 0.8956 F1: 0.8954
+Epoch 38: Val Loss: 0.9158 Acc: 0.8898 F1: 0.8891
+Validation loss decreased (0.917334 --> 0.915772).  Saving model ...
+Epoch 39: Train Loss: 0.3214 Acc: 0.8948 F1: 0.8949
+Epoch 39: Val Loss: 0.9157 Acc: 0.8888 F1: 0.8882
+Validation loss decreased (0.915772 --> 0.915705).  Saving model ...
+Epoch 40: Train Loss: 0.3129 Acc: 0.8993 F1: 0.8992
+Epoch 40: Val Loss: 0.9150 Acc: 0.8878 F1: 0.8863
+Validation loss decreased (0.915705 --> 0.915025).  Saving model ...
+Epoch 41: Train Loss: 0.3136 Acc: 0.8991 F1: 0.8989
+Epoch 41: Val Loss: 0.9123 Acc: 0.8898 F1: 0.8888
+Validation loss decreased (0.915025 --> 0.912274).  Saving model ...
+Epoch 42: Train Loss: 0.3145 Acc: 0.8901 F1: 0.8895
+Epoch 42: Val Loss: 0.9114 Acc: 0.8958 F1: 0.8955
+Validation loss decreased (0.912274 --> 0.911443).  Saving model ...
+Epoch 43: Train Loss: 0.3025 Acc: 0.9008 F1: 0.9007
+Epoch 43: Val Loss: 0.9081 Acc: 0.8938 F1: 0.8927
+Validation loss decreased (0.911443 --> 0.908114).  Saving model ...
+Epoch 44: Train Loss: 0.3052 Acc: 0.8978 F1: 0.8975
+Epoch 44: Val Loss: 0.9069 Acc: 0.8958 F1: 0.8949
+Validation loss decreased (0.908114 --> 0.906904).  Saving model ...
+Epoch 45: Train Loss: 0.3031 Acc: 0.8963 F1: 0.8959
+Epoch 45: Val Loss: 0.9067 Acc: 0.8888 F1: 0.8871
+Validation loss decreased (0.906904 --> 0.906711).  Saving model ...
+Epoch 46: Train Loss: 0.2965 Acc: 0.9043 F1: 0.9040
+Epoch 46: Val Loss: 0.9043 Acc: 0.8958 F1: 0.8949
+Validation loss decreased (0.906711 --> 0.904322).  Saving model ...
+Epoch 47: Train Loss: 0.2961 Acc: 0.8998 F1: 0.8995
+Epoch 47: Val Loss: 0.9053 Acc: 0.8928 F1: 0.8916
+EarlyStopping counter: 1 out of 7
+Epoch 48: Train Loss: 0.2916 Acc: 0.9035 F1: 0.9035
+Epoch 48: Val Loss: 0.9054 Acc: 0.8928 F1: 0.8919
+EarlyStopping counter: 2 out of 7
+Epoch 49: Train Loss: 0.2918 Acc: 0.9043 F1: 0.9040
+Epoch 49: Val Loss: 0.9029 Acc: 0.8958 F1: 0.8947
+Validation loss decreased (0.904322 --> 0.902908).  Saving model ...
+Epoch 50: Train Loss: 0.2933 Acc: 0.9060 F1: 0.9058
+Epoch 50: Val Loss: 0.9038 Acc: 0.8968 F1: 0.8960
+EarlyStopping counter: 1 out of 7
+Epoch 51: Train Loss: 0.2896 Acc: 0.9015 F1: 0.9012
+Epoch 51: Val Loss: 0.8998 Acc: 0.9008 F1: 0.9004
+Validation loss decreased (0.902908 --> 0.899781).  Saving model ...
+Epoch 52: Train Loss: 0.2854 Acc: 0.9040 F1: 0.9037
+Epoch 52: Val Loss: 0.9007 Acc: 0.8978 F1: 0.8971
+EarlyStopping counter: 1 out of 7
+Epoch 53: Train Loss: 0.2829 Acc: 0.9078 F1: 0.9080
+Epoch 53: Val Loss: 0.9009 Acc: 0.8978 F1: 0.8965
+EarlyStopping counter: 2 out of 7
+Epoch 54: Train Loss: 0.2856 Acc: 0.9035 F1: 0.9034
+Epoch 54: Val Loss: 0.8974 Acc: 0.8948 F1: 0.8937
+Validation loss decreased (0.899781 --> 0.897358).  Saving model ...
+Epoch 55: Train Loss: 0.2768 Acc: 0.9118 F1: 0.9116
+Epoch 55: Val Loss: 0.8966 Acc: 0.8958 F1: 0.8947
+Validation loss decreased (0.897358 --> 0.896574).  Saving model ...
+Epoch 56: Train Loss: 0.2810 Acc: 0.9033 F1: 0.9031
+Epoch 56: Val Loss: 0.8957 Acc: 0.8958 F1: 0.8948
+Validation loss decreased (0.896574 --> 0.895709).  Saving model ...
+Epoch 57: Train Loss: 0.2731 Acc: 0.9098 F1: 0.9096
+Epoch 57: Val Loss: 0.8950 Acc: 0.8978 F1: 0.8971
+Validation loss decreased (0.895709 --> 0.895007).  Saving model ...
+Epoch 58: Train Loss: 0.2810 Acc: 0.9055 F1: 0.9053
+Epoch 58: Val Loss: 0.8947 Acc: 0.8988 F1: 0.8983
+Validation loss decreased (0.895007 --> 0.894677).  Saving model ...
+Epoch 59: Train Loss: 0.2724 Acc: 0.9118 F1: 0.9117
+Epoch 59: Val Loss: 0.8968 Acc: 0.8968 F1: 0.8956
+EarlyStopping counter: 1 out of 7
+Epoch 60: Train Loss: 0.2691 Acc: 0.9145 F1: 0.9144
+Epoch 60: Val Loss: 0.8963 Acc: 0.8978 F1: 0.8964
+EarlyStopping counter: 2 out of 7
+Epoch 61: Train Loss: 0.2766 Acc: 0.9128 F1: 0.9127
+Epoch 61: Val Loss: 0.8925 Acc: 0.9048 F1: 0.9047
+Validation loss decreased (0.894677 --> 0.892526).  Saving model ...
+Epoch 62: Train Loss: 0.2771 Acc: 0.9065 F1: 0.9063
+Epoch 62: Val Loss: 0.8919 Acc: 0.9038 F1: 0.9032
+Validation loss decreased (0.892526 --> 0.891861).  Saving model ...
+Epoch 63: Train Loss: 0.2723 Acc: 0.9103 F1: 0.9102
+Epoch 63: Val Loss: 0.8895 Acc: 0.9058 F1: 0.9055
+Validation loss decreased (0.891861 --> 0.889461).  Saving model ...
+Epoch 64: Train Loss: 0.2620 Acc: 0.9105 F1: 0.9104
+Epoch 64: Val Loss: 0.8884 Acc: 0.9078 F1: 0.9078
+Validation loss decreased (0.889461 --> 0.888350).  Saving model ...
+Epoch 65: Train Loss: 0.2664 Acc: 0.9048 F1: 0.9048
+Epoch 65: Val Loss: 0.8897 Acc: 0.9008 F1: 0.8999
+EarlyStopping counter: 1 out of 7
+Epoch 66: Train Loss: 0.2662 Acc: 0.9073 F1: 0.9071
+Epoch 66: Val Loss: 0.8889 Acc: 0.9028 F1: 0.9025
+EarlyStopping counter: 2 out of 7
+Epoch 67: Train Loss: 0.2629 Acc: 0.9105 F1: 0.9105
+Epoch 67: Val Loss: 0.8909 Acc: 0.9018 F1: 0.9010
+EarlyStopping counter: 3 out of 7
+Epoch 68: Train Loss: 0.2621 Acc: 0.9115 F1: 0.9113
+Epoch 68: Val Loss: 0.8889 Acc: 0.9018 F1: 0.9005
+EarlyStopping counter: 4 out of 7
+Epoch 69: Train Loss: 0.2611 Acc: 0.9155 F1: 0.9155
+Epoch 69: Val Loss: 0.8891 Acc: 0.8958 F1: 0.8946
+EarlyStopping counter: 5 out of 7
+Epoch 70: Train Loss: 0.2605 Acc: 0.9130 F1: 0.9127
+Epoch 70: Val Loss: 0.8884 Acc: 0.8988 F1: 0.8981
+EarlyStopping counter: 6 out of 7
+Epoch 71: Train Loss: 0.2625 Acc: 0.9103 F1: 0.9102
+Epoch 71: Val Loss: 0.8859 Acc: 0.9078 F1: 0.9072
+Validation loss decreased (0.888350 --> 0.885891).  Saving model ...
+Epoch 72: Train Loss: 0.2593 Acc: 0.9153 F1: 0.9152
+Epoch 72: Val Loss: 0.8863 Acc: 0.9028 F1: 0.9016
+EarlyStopping counter: 1 out of 7
+Epoch 73: Train Loss: 0.2530 Acc: 0.9138 F1: 0.9138
+Epoch 73: Val Loss: 0.8842 Acc: 0.9018 F1: 0.9004
+Validation loss decreased (0.885891 --> 0.884232).  Saving model ...
+Epoch 74: Train Loss: 0.2566 Acc: 0.9115 F1: 0.9114
+Epoch 74: Val Loss: 0.8834 Acc: 0.9038 F1: 0.9033
+Validation loss decreased (0.884232 --> 0.883414).  Saving model ...
+Epoch 75: Train Loss: 0.2456 Acc: 0.9235 F1: 0.9235
+Epoch 75: Val Loss: 0.8841 Acc: 0.8998 F1: 0.8984
+EarlyStopping counter: 1 out of 7
+Epoch 76: Train Loss: 0.2466 Acc: 0.9155 F1: 0.9154
+Epoch 76: Val Loss: 0.8819 Acc: 0.9058 F1: 0.9052
+Validation loss decreased (0.883414 --> 0.881901).  Saving model ...
+Epoch 77: Train Loss: 0.2510 Acc: 0.9153 F1: 0.9151
+Epoch 77: Val Loss: 0.8825 Acc: 0.9068 F1: 0.9060
+EarlyStopping counter: 1 out of 7
+Epoch 78: Train Loss: 0.2459 Acc: 0.9158 F1: 0.9157
+Epoch 78: Val Loss: 0.8812 Acc: 0.9048 F1: 0.9043
+Validation loss decreased (0.881901 --> 0.881176).  Saving model ...
+Epoch 79: Train Loss: 0.2463 Acc: 0.9175 F1: 0.9175
+Epoch 79: Val Loss: 0.8829 Acc: 0.8998 F1: 0.8983
+EarlyStopping counter: 1 out of 7
+Epoch 80: Train Loss: 0.2437 Acc: 0.9213 F1: 0.9212
+Epoch 80: Val Loss: 0.8826 Acc: 0.8988 F1: 0.8979
+EarlyStopping counter: 2 out of 7
+Epoch 81: Train Loss: 0.2483 Acc: 0.9180 F1: 0.9180
+Epoch 81: Val Loss: 0.8807 Acc: 0.9108 F1: 0.9107
+Validation loss decreased (0.881176 --> 0.880672).  Saving model ...
+Epoch 82: Train Loss: 0.2497 Acc: 0.9198 F1: 0.9197
+Epoch 82: Val Loss: 0.8819 Acc: 0.9028 F1: 0.9019
+EarlyStopping counter: 1 out of 7
+Epoch 83: Train Loss: 0.2370 Acc: 0.9223 F1: 0.9221
+Epoch 83: Val Loss: 0.8806 Acc: 0.9048 F1: 0.9040
+Validation loss decreased (0.880672 --> 0.880642).  Saving model ...
+Epoch 84: Train Loss: 0.2377 Acc: 0.9195 F1: 0.9193
+Epoch 84: Val Loss: 0.8777 Acc: 0.9098 F1: 0.9093
+Validation loss decreased (0.880642 --> 0.877741).  Saving model ...
+Epoch 85: Train Loss: 0.2417 Acc: 0.9200 F1: 0.9199
+Epoch 85: Val Loss: 0.8802 Acc: 0.9078 F1: 0.9077
+EarlyStopping counter: 1 out of 7
+Epoch 86: Train Loss: 0.2395 Acc: 0.9163 F1: 0.9161
+Epoch 86: Val Loss: 0.8772 Acc: 0.9068 F1: 0.9061
+Validation loss decreased (0.877741 --> 0.877235).  Saving model ...
+Epoch 87: Train Loss: 0.2378 Acc: 0.9198 F1: 0.9195
+Epoch 87: Val Loss: 0.8772 Acc: 0.9098 F1: 0.9090
+EarlyStopping counter: 1 out of 7
+Epoch 88: Train Loss: 0.2343 Acc: 0.9245 F1: 0.9243
+Epoch 88: Val Loss: 0.8769 Acc: 0.9068 F1: 0.9062
+Validation loss decreased (0.877235 --> 0.876862).  Saving model ...
+Epoch 89: Train Loss: 0.2401 Acc: 0.9223 F1: 0.9221
+Epoch 89: Val Loss: 0.8769 Acc: 0.9088 F1: 0.9084
+EarlyStopping counter: 1 out of 7
+Epoch 90: Train Loss: 0.2274 Acc: 0.9258 F1: 0.9255
+Epoch 90: Val Loss: 0.8763 Acc: 0.9098 F1: 0.9094
+Validation loss decreased (0.876862 --> 0.876285).  Saving model ...
+Epoch 91: Train Loss: 0.2382 Acc: 0.9255 F1: 0.9254
+Epoch 91: Val Loss: 0.8758 Acc: 0.9108 F1: 0.9101
+Validation loss decreased (0.876285 --> 0.875816).  Saving model ...
+Epoch 92: Train Loss: 0.2303 Acc: 0.9250 F1: 0.9250
+Epoch 92: Val Loss: 0.8788 Acc: 0.9038 F1: 0.9029
+EarlyStopping counter: 1 out of 7
+Epoch 93: Train Loss: 0.2394 Acc: 0.9190 F1: 0.9191
+Epoch 93: Val Loss: 0.8777 Acc: 0.9028 F1: 0.9014
+EarlyStopping counter: 2 out of 7
+Epoch 94: Train Loss: 0.2271 Acc: 0.9300 F1: 0.9298
+Epoch 94: Val Loss: 0.8735 Acc: 0.9138 F1: 0.9135
+Validation loss decreased (0.875816 --> 0.873548).  Saving model ...
+Epoch 95: Train Loss: 0.2257 Acc: 0.9230 F1: 0.9228
+Epoch 95: Val Loss: 0.8741 Acc: 0.9108 F1: 0.9105
+EarlyStopping counter: 1 out of 7
+Epoch 96: Train Loss: 0.2233 Acc: 0.9265 F1: 0.9264
+Epoch 96: Val Loss: 0.8731 Acc: 0.9108 F1: 0.9106
+Validation loss decreased (0.873548 --> 0.873066).  Saving model ...
+Epoch 97: Train Loss: 0.2276 Acc: 0.9263 F1: 0.9261
+Epoch 97: Val Loss: 0.8745 Acc: 0.9098 F1: 0.9092
+EarlyStopping counter: 1 out of 7
+Epoch 98: Train Loss: 0.2258 Acc: 0.9273 F1: 0.9272
+Epoch 98: Val Loss: 0.8725 Acc: 0.9128 F1: 0.9124
+Validation loss decreased (0.873066 --> 0.872508).  Saving model ...
+Epoch 99: Train Loss: 0.2248 Acc: 0.9273 F1: 0.9272
+Epoch 99: Val Loss: 0.8732 Acc: 0.9118 F1: 0.9113
+EarlyStopping counter: 1 out of 7
+Epoch 100: Train Loss: 0.2335 Acc: 0.9178 F1: 0.9174
+Epoch 100: Val Loss: 0.8750 Acc: 0.9048 F1: 0.9038
+EarlyStopping counter: 2 out of 7
+Starting robustness test...
+Evaluating on Clean Test Set...
+Evaluating Gaussian Noise (sigma=0.1)...
+Evaluating Gaussian Noise (sigma=0.5)...
+Evaluating Gaussian Noise (sigma=1.0)...
+Evaluating Blur (kernel=3)...
+Evaluating Blur (kernel=5)...
+Evaluating Blur (kernel=7)...
+Evaluating Contrast (factor=0.5)...
+Evaluating Contrast (factor=0.8)...
+Results saved to results/yolov8_cls_robustness_results.csv
+        Condition   Parameter  Accuracy  F1-Score  Acc Drop   F1 Drop
+0           Clean        None     0.884  0.883179     0.000  0.000000
+1  Gaussian Noise   sigma=0.1     0.144  0.042404     0.740  0.840775
+2  Gaussian Noise   sigma=0.5     0.140  0.034386     0.744  0.848793
+3  Gaussian Noise   sigma=1.0     0.140  0.034386     0.744  0.848793
+4            Blur         k=3     0.407  0.435143     0.477  0.448036
+5            Blur         k=5     0.352  0.369782     0.532  0.513397
+6            Blur         k=7     0.385  0.414300     0.499  0.468879
+7        Contrast  factor=0.5     0.824  0.821620     0.060  0.061559
+8        Contrast  factor=0.8     0.880  0.879386     0.004  0.003793

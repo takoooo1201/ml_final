@@ -1,0 +1,91 @@
+Logging to results/vit_b_16_training_log_20251218_001020.txt
+Using device: cuda
+Loading data...
+Dataset sizes: Train=4002, Val=998, Test=1000
+Number of classes: 4
+Initializing vit_b_16...
+Downloading: "https://download.pytorch.org/models/vit_b_16-c867db91.pth" to /home/takoooo1201/.cache/torch/hub/checkpoints/vit_b_16-c867db91.pth
+Starting training...
+Using 2 GPUs!
+Epoch 1: Train Loss: 0.3390 Acc: 0.8751 F1: 0.8749
+Epoch 1: Val Loss: 0.1018 Acc: 0.9649 F1: 0.9647
+Validation loss decreased (inf --> 0.101793).  Saving model ...
+Epoch 2: Train Loss: 0.0718 Acc: 0.9748 F1: 0.9748
+Epoch 2: Val Loss: 0.0728 Acc: 0.9749 F1: 0.9747
+Validation loss decreased (0.101793 --> 0.072755).  Saving model ...
+Epoch 3: Train Loss: 0.0355 Acc: 0.9880 F1: 0.9880
+Epoch 3: Val Loss: 0.0515 Acc: 0.9810 F1: 0.9809
+Validation loss decreased (0.072755 --> 0.051483).  Saving model ...
+Epoch 4: Train Loss: 0.0139 Acc: 0.9955 F1: 0.9955
+Epoch 4: Val Loss: 0.0818 Acc: 0.9739 F1: 0.9739
+EarlyStopping counter: 1 out of 7
+Epoch 5: Train Loss: 0.0104 Acc: 0.9968 F1: 0.9968
+Epoch 5: Val Loss: 0.0803 Acc: 0.9790 F1: 0.9789
+EarlyStopping counter: 2 out of 7
+Epoch 6: Train Loss: 0.0052 Acc: 0.9988 F1: 0.9988
+Epoch 6: Val Loss: 0.0596 Acc: 0.9840 F1: 0.9840
+EarlyStopping counter: 3 out of 7
+Epoch 7: Train Loss: 0.0068 Acc: 0.9980 F1: 0.9980
+Epoch 7: Val Loss: 0.0324 Acc: 0.9920 F1: 0.9920
+Validation loss decreased (0.051483 --> 0.032439).  Saving model ...
+Epoch 8: Train Loss: 0.0022 Acc: 0.9993 F1: 0.9993
+Epoch 8: Val Loss: 0.0312 Acc: 0.9870 F1: 0.9870
+Validation loss decreased (0.032439 --> 0.031200).  Saving model ...
+Epoch 9: Train Loss: 0.0012 Acc: 0.9998 F1: 0.9998
+Epoch 9: Val Loss: 0.0321 Acc: 0.9880 F1: 0.9880
+EarlyStopping counter: 1 out of 7
+Epoch 10: Train Loss: 0.0013 Acc: 0.9995 F1: 0.9995
+Epoch 10: Val Loss: 0.0323 Acc: 0.9880 F1: 0.9880
+EarlyStopping counter: 2 out of 7
+Epoch 11: Train Loss: 0.0028 Acc: 0.9995 F1: 0.9995
+Epoch 11: Val Loss: 0.0326 Acc: 0.9880 F1: 0.9880
+EarlyStopping counter: 3 out of 7
+Epoch 12: Train Loss: 0.0022 Acc: 0.9995 F1: 0.9995
+Epoch 12: Val Loss: 0.0335 Acc: 0.9910 F1: 0.9910
+EarlyStopping counter: 4 out of 7
+Epoch 13: Train Loss: 0.0016 Acc: 0.9995 F1: 0.9995
+Epoch 13: Val Loss: 0.0291 Acc: 0.9880 F1: 0.9880
+Validation loss decreased (0.031200 --> 0.029066).  Saving model ...
+Epoch 14: Train Loss: 0.0013 Acc: 0.9993 F1: 0.9993
+Epoch 14: Val Loss: 0.0347 Acc: 0.9880 F1: 0.9880
+EarlyStopping counter: 1 out of 7
+Epoch 15: Train Loss: 0.0012 Acc: 0.9995 F1: 0.9995
+Epoch 15: Val Loss: 0.0350 Acc: 0.9860 F1: 0.9859
+EarlyStopping counter: 2 out of 7
+Epoch 16: Train Loss: 0.0012 Acc: 0.9993 F1: 0.9993
+Epoch 16: Val Loss: 0.0355 Acc: 0.9870 F1: 0.9870
+EarlyStopping counter: 3 out of 7
+Epoch 17: Train Loss: 0.0010 Acc: 0.9993 F1: 0.9993
+Epoch 17: Val Loss: 0.0374 Acc: 0.9860 F1: 0.9859
+EarlyStopping counter: 4 out of 7
+Epoch 18: Train Loss: 0.0012 Acc: 0.9993 F1: 0.9993
+Epoch 18: Val Loss: 0.0347 Acc: 0.9870 F1: 0.9870
+EarlyStopping counter: 5 out of 7
+Epoch 19: Train Loss: 0.0009 Acc: 0.9995 F1: 0.9995
+Epoch 19: Val Loss: 0.0347 Acc: 0.9870 F1: 0.9870
+EarlyStopping counter: 6 out of 7
+Epoch 20: Train Loss: 0.0008 Acc: 0.9995 F1: 0.9995
+Epoch 20: Val Loss: 0.0348 Acc: 0.9870 F1: 0.9870
+EarlyStopping counter: 7 out of 7
+Early stopping
+Starting robustness test...
+Evaluating on Clean Test Set...
+Evaluating Gaussian Noise (sigma=0.1)...
+Evaluating Gaussian Noise (sigma=0.5)...
+Evaluating Gaussian Noise (sigma=1.0)...
+Evaluating Blur (kernel=3)...
+Evaluating Blur (kernel=5)...
+Evaluating Blur (kernel=7)...
+Evaluating Contrast (factor=0.5)...
+Evaluating Contrast (factor=0.8)...
+Results saved to results/vit_b_16_robustness_results.csv
+        Condition   Parameter  Accuracy  F1-Score  Acc Drop   F1 Drop
+0           Clean        None     0.989  0.988999     0.000  0.000000
+1  Gaussian Noise   sigma=0.1     0.985  0.984995     0.004  0.004004
+2  Gaussian Noise   sigma=0.5     0.945  0.945396     0.044  0.043603
+3  Gaussian Noise   sigma=1.0     0.690  0.689351     0.299  0.299648
+4            Blur         k=3     0.984  0.984007     0.005  0.004992
+5            Blur         k=5     0.960  0.960096     0.029  0.028904
+6            Blur         k=7     0.941  0.940690     0.048  0.048309
+7        Contrast  factor=0.5     0.964  0.964103     0.025  0.024896
+8        Contrast  factor=0.8     0.984  0.984000     0.005  0.005000
